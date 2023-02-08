@@ -1,0 +1,109 @@
+.products-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 25px;
+    @include minWidth(469){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include minWidth(768){
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @include minWidth(1200){
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}
+
+.product-item{
+    box-shadow: 0 0 1rem rgba($color: $darkColor, $alpha: 0.16);
+    border: 0.1rem solid rgba($color: $darkColor, $alpha: 0.08);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .product-img{
+        overflow: hidden;
+        height: 25rem;
+        @include minWidth(1200){
+            height: 30rem;
+        }
+        &:hover img{
+            transform: scale(1.2) rotate(5deg);
+        }
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: center center;
+        transition: 0.2s;
+    }
+    .product-body{
+        padding: 2rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    h3{
+        margin-top: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba($color: $darkColor, $alpha: 0.12);
+        font-size: 2.2rem;
+    }
+    .product-price{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 1.5rem 1rem;
+        background-color: rgba($color: $darkColor, $alpha: 0.6);
+        color: $yellowColor;
+        font-weight: 900;
+        font-size: 24px;
+    }
+    .product-description{
+        font-size: 1.8rem;
+        margin-top: 0;
+    }
+    .product-btn{
+        border: none;
+        background-color: $primaryColor;
+        color: $lightColor;
+        font-weight: 700;
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 1rem 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 20rem;
+        cursor: pointer;
+        position: relative;
+        span{
+            z-index: 1;
+            position: relative;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            background-color: $primaryColor;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            transition: 0.3s;
+        }
+        &:hover{
+            &:before{
+                transform: scale(1.1) 
+          
+            }
+        }
+    }
+}

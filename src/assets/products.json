@@ -1,0 +1,82 @@
+[
+        {
+            "name": "Hamburguesa Sencilla",
+            "price": 30,
+            "shortDesc": "Hamburguesa sencilla, la clásica",
+            "fullDesc": "Hamburguesa sencilla, la clásica",
+            "img": "hamburguesa-sencilla.jpg",
+            "cat": "Hamburguesa",
+            "stock": 25,
+            "id": 0
+        },
+        {
+            "name": "Hamburguesa con Tocino",
+            "price": 40,
+            "shortDesc": "Hamburguesa con tocino",
+            "fullDesc": "Hamburguesa con tocino",
+            "img": "hamburguesa-tocino.jpg",
+            "cat": "Hamburguesa",
+            "stock": 25,
+            "id": 1
+        },
+        {
+            "name": "Hamburguesa Especial",
+            "price": 60,
+            "shortDesc": "Hamburguesa especial de la casa",
+            "fullDesc": "Hamburguesa especial de la casa",
+            "img": "hamburguesa-especial.jpg",
+            "cat": "Hamburguesa",
+            "stock": 25,
+            "id": 2
+        },
+        {
+            "name": "Hamburguesa Doble Carne",
+            "price": 80,
+            "shortDesc": "Hamburguesa con dos carnes",
+            "fullDesc": "Hamburguesa con dos carnes",
+            "img": "hamburguesa-doble-carne.jpg",
+            "cat": "Hamburguesa",
+            "stock": 25,
+            "id": 3
+        },
+        {
+            "name": "Hot Dog Sencillo",
+            "price": 30,
+            "shortDesc": "Hot dog Sencillo",
+            "fullDesc": "Hot dog Sencillo",
+            "img": "hotdog-sencillo.jpg",
+            "cat": "Hot dog",
+            "stock": 25,
+            "id": 4
+        },
+        {
+            "name": "Hot Dog Mexicano",
+            "price": 40,
+            "shortDesc": "Hotdog al puro estilo mexicano",
+            "fullDesc": "Hotdog al puro estilo mexicano",
+            "img": "hotdog-mexicano.jpg",
+            "cat": "Hot dog",
+            "stock": 25,
+            "id": 5
+        },
+        {
+            "name": "Hot Dog 3 Quesos",
+            "price": 60,
+            "shortDesc": "Para los amantes del queso",
+            "fullDesc": "Para los amantes del queso",
+            "img": "hotdog-3-quesos.jpg",
+            "cat": "Hot dog",
+            "stock": 25,
+            "id": 6
+        },
+        {
+            "name": "Hot Dog Especial",
+            "price": 80,
+            "shortDesc": "Hotdog especial de la casa",
+            "fullDesc": "Hotdog especial de la casa",
+            "img": "hotdog-especial.jpg",
+            "cat": "Hot dog",
+            "stock": 25,
+            "id": 7
+        }
+    ]
