@@ -7,8 +7,6 @@ import InfoRestaurant from "./components/InfoRestaurant";
 import Hero from "./components/Hero";
 import Footer from './components/Footer';
 
-import { DarkModeProvider } from './context/darkModeContext';
-
 function App() {
 
   return (
